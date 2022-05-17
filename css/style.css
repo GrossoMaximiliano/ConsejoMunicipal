@@ -82,3 +82,70 @@ footer.page-footer {
   align-items: center;
   align-content: center;
 }
+
+                    .entry-header {
+                        background: rgba(40, 148, 223, 0.4);
+                        color: white;
+                        height: 158px !important;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+
+                    .entry-header3 {
+                        background: rgba(40, 148, 223, 0.4);
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        padding-bottom: 80px;
+                        
+                    }
+                    
+                    .entry-header2 {
+                        background: rgba(40, 148, 223, 0.4);
+                        color: white;
+                        height: 158px !important;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                                        
+                    .entry-head {
+                        background-image: url('https://concejorafaela.gob.ar/wp-content/uploads/2018/06/cr_slider_1_slide1_bgs-2.jpg');
+                        
+                    }
+                    
+                    .entry-header h1 {
+                        font-size: 30px;
+                        font-weight: 600
+                    }
+                    .entry-header2 h1 {
+                        font-size: 30px;
+                        font-weight: 600
+                    }
+
+
+                    footer ul li a:hover { 
+                      color:rgb(61, 230, 230) !important;
+                      border-bottom: 1px solid rgb(61, 230, 230);
+                    }
+
+   .nav_contactos {
+    height: 35px;
+    width: 100%;
+    background-color: #053360 !important;
+    display: flex;
+} 
+
+
+.slider .indicators .indicator-item.active {
+    background-color: lightblue !important;
+}
+
+.page-footer .text-lighten-4 {
+      line-height: 24px !important;
+      width: 85% !important;
+}

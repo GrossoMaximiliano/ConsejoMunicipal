@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Yugo Turismo</title>
+
+  <!-- CSS  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/estiloProyYugo.css" rel="stylesheet" type="text/css"/>
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+  <link href="css/MaterialIcons.css" rel="stylesheet" type="text/css"/>
+  <link href="css/contactocss.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <!--MARCADOR PARA VOLVER-->
+    <a name="arriba" class="hidden"></a>
+
+<!--BARRA NAVEGACION MENU SUPERIOR-->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+
+       <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html"   class="brand-logo"> 
+            <img class="btn-xlarge" src="img/logo2.png" alt="" onerror="this.src='../img/Logo2.png';"/><!----> </a></li>
+       </ul>
+      
+        <ul  class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class='material-icons left  cyan-text lighten-2'  >home</i>Inicio</a></li>
+            <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown1'><i class='material-icons left cyan-text lighten-2'>assignment</i>Institucional</a></li>
+            <li><a href="noticias.html"><i class='material-icons left  cyan-text lighten-2' >web</i>Noticias</a></li>
+            <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown2'><i class='fa fa-gavel small left  cyan-text lighten-2' style="font-size: 18px;"></i>Legislación</a></li>
+            <a href="./contacto.html" class="waves-effect waves-light btn cyan darken-2">Contacto</a>
+                
+                
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li ><a href="concejales.html"  class="black-text"><i class='material-icons left  cyan-text lighten-2'  >format_list_bulleted</i>Miembros</a></li>
+                  <li><a href="historia.html"  class="black-text"><i class='material-icons left  cyan-text lighten-2'  >history</i>Historia</a></li>
+                  <li><a href="funciones.html"   class="black-text"><i class='material-icons left  cyan-text lighten-2' >location_on</i>Funciones </a></li>
+                </ul>
+                
+                <ul id='dropdown2' class='dropdown-content'>
+                  <li ><a href="actas.html" class="black-text"><i class='material-icons left  cyan-text lighten-2'  >folder</i>Actas</a></li>
+                  <li ><a href="sesiones.html" class="black-text"><i class='material-icons left  cyan-text lighten-2'  >folder</i>Sesiones</a></li>
+                </ul>
+        </ul>
+    </div>
+  </nav>
+<!--FIN BARRA NAVEGACION MENU SUPERIOR-->
+
+<!--MENU CON CUADROS PARA LAS ACTIVIDADES
+<div class="container contacto" >   
+    <div class="row center-align" >
+        <div class="col s3">
+            <div class="section" style="padding: 60px 0" id="iconos">
+                <div class="row half-gutters">
+                 <figure class="wojo basic small image half-bottom-margin">  
+                    <img src="img/ubicacion.svg" alt="Address" id="domicilio">
+                </figure>
+                    <h6>Domicilio</h6>
+                    <p class="wojo small text">Calle 19 - C.P 3586 - Las Toscas - Santa Fe - Argentina</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s3">
+            <div class="section" style="padding: 60px 0" id="iconos">
+                <div class="row half-gutters">
+                <figure class="wojo basic small image half-bottom-margin">  
+                <img src="img/telefono.svg" alt="Phone Number" id="telefono">              
+                </figure>
+                <h6>Teléfono</h6>
+                <p class="wojo small text">3482-492310</p>
+                </div>
+            </div>
+        </div>
+        <div class="col s3">
+            <div class="section" style="padding: 60px 0" id="iconos">
+            <figure class="wojo basic small image half-bottom-margin">  
+                <img src="img/email.svg" alt="Email" id="email">
+                </figure>
+            <h6> Email  </h6>
+            <p class="wojo small text">municipalidadlastoscas@gmail.com</p>
+            </div>
+        </div>
+        <div class="col s3">
+            <div class="section" style="padding: 60px 0" id="iconos">
+                <figure class="wojo basic small image half-bottom-margin">  
+                <img src="img/horarios.svg" alt="Phone Number" id="horario">
+                </figure>
+                <h6>Horarios de atención</h6>
+                <p class="wojo small text">8hs a 12:30hs am</p>
+            </div>
+        </div> 
+    </div> 
+  </div> -->  
+    
+
+
+<div class="container contacto">   
+    <div class="row center-align">
+    <h1>Formulario de Contacto</h1>
+        <p>Dejenos su inquietud en el formulario y en breve nos contactaremos con Usted, Gracias!...</p>
+    </div>
+</div>
+       
+        
+  <div class="row center-align contacto">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="nombre" type="text" class="validate">
+          <label for="nombre">Nombre</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="apellido" type="text" class="validate">
+          <label for="apellido">Apellido</label>
+        </div>
+          <div class="input-field col s6">
+          <input id="telefono" type="text" class="validate">
+          <label for="telefono">Telefono</label>
+        </div>
+        <div class="row">
+        <div class="input-field col s6">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+        </div>
+          
+            <div class="row">
+                    <div class="input-field col s12">
+                      <textarea name="texto" id="texto" class="materialize-textarea validate"></textarea>
+                      <label for="textarea1">Escribe tu mensaje...</label>
+                    </div>
+              </div>
+      </div>
+        <div>
+      <input class="btn cyan darken-2 btn-info" type="submit" value="ENVIAR MENSAJE AHORA">
+      </div>
+    </form> 
+    </div>
+  
+ 
+
+
+    <div class="container contacto" >   
+      <div class="row center-align" >
+          <div class="col s3">
+              <div class="section"  id="iconos">
+                  <div class="row half-gutters">
+                   <figure class="wojo basic small image half-bottom-margin">  
+                      <img src="img/ubicacion.svg" alt="Address" id="domicilio">
+                  </figure>
+                      <h6>Domicilio</h6>
+                      <p class="wojo small text">Calle 19 - C.P 3586 - Las Toscas - Santa Fe - Argentina</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col s3">
+              <div class="section"  id="iconos">
+                  <div class="row half-gutters">
+                  <figure class="wojo basic small image half-bottom-margin">  
+                  <img src="img/telefono.svg" alt="Phone Number" id="telefono">              
+                  </figure>
+                  <h6>Teléfono</h6>
+                  <p class="wojo small text">3482-492310</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col s3">
+              <div class="section"  id="iconos">
+              <figure class="wojo basic small image half-bottom-margin">  
+                  <img src="img/email.svg" alt="Email" id="email">
+                  </figure>
+              <h6> Email  </h6>
+              <p class="wojo small text">municipalidadlastoscas@gmail.com</p>
+              </div>
+          </div>
+          <div class="col s3">
+              <div class="section"  id="iconos">
+                  <figure class="wojo basic small image half-bottom-margin">  
+                  <img src="img/horarios.svg" alt="Phone Number" id="horario">
+                  </figure>
+                  <h6>Horarios de atención</h6>
+                  <p class="wojo small text">8hs a 12:30hs am</p>
+              </div>
+          </div> 
+      </div> <!-- fin fila-->
+  </div>  <!-- fin container -->  
+
+  <footer class="page-footer cyan darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre Nosotros</h5>
+          <p class="grey-text text-lighten-4">El Concejo Municipal de Las Toscas es el órgano legislativo y de control del Gobierno Municipal. Su función es crear normas jurídicas que luego el Departamento Ejecutivo aplicará en el ámbito territorial de la ciudad. <br/> Si bien es un poder independiente, actualmente su espacio físico se ubica dentro de las instalaciones de la Municipalidad de Las Toscas.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Actividades</h5>
+               <ul>
+            <li><a class="white-text" href="index.html">Inicio</a></li>
+            <li><a class="white-text" href="concejales.html">Miembros</a></li>
+            <li><a class="white-text" href="historia.html">Historia</a></li>
+            <li><a class="white-text" href="funciones.html">Funciones</a></li>
+            <li><a class="white-text" href="noticias.html">Noticias</a></li>
+            <li><a class="white-text" href="actas.html">Actas</a></li>
+            <li><a class="white-text" href="actas.html">Sesiones</a></li>
+
+
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Contacto</h5>
+          <ul>
+            <li><a class="white-text" href="mailto:yugoTurismo@gmail.com">Mail: municipalidadlastoscas@gmail.com</a></li>
+            <li  class="white-text" style="padding-bottom: 4px;" >Telèfono: 3482-492310</li>
+            <li  class="white-text" style="padding-bottom: 4px;" >Dirección: Calle 19 - C.P 3586 - Las Toscas - Santa Fe</li>
+            <li  class="white-text" style="padding-bottom: 4px;" >Horario de atención: 8hs a 12:30hs am</li>
+
+                </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container cyan-text text-lighten-3">
+      Alumnos del ISP N63 © 2022 Todos los derechos reservados
+      </div>
+    </div>
+  </footer>
+
+  
+   
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          M.AutoInit();
+            var instance = M.Dropdown.getInstance(elem);
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems, options);
+    });
+      $('.dropdown-trigger').dropdown();
+      
+      
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+             var instance = M.Parallax.getInstance(elem);
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems, options);
+    });
+  
+    // Or with jQuery
+  
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+          
+    </script>
+  <script>  
+       var instance = M.Carousel.init({
+      fullWidth: true
+    });
+  
+    // Or with jQuery
+  
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    });</script>
+                <script>document.addEventListener('DOMContentLoaded', function () {
+                      var elems = document.querySelectorAll('.slider');
+                              var elems = document.querySelectorAll('.slider');
+                         var instances = M.Slider.init(elems, {interval: 3000});
+                      //var instances = M.Slider.init(elems);
+                  });
+              </script>
+              
+  
+    </body>
+    
+    <style>
+    .nav_contactos {
+      height: 35px;
+      width: 100%;
+      background-color: #053360 !important;
+      display: flex;
+  } 
+    </style>
+    
+    
+  </html>
+  

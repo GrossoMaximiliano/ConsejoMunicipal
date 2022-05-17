@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="194.425mm" height="207.025mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 19183 20427"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#BDC5D1;stroke-width:518.007;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.501961}
+    .str0 {stroke:#007FA2;stroke-width:518.007;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:#BDC5D1;stroke-width:518.007;stroke-linecap:round;stroke-linejoin:round}
+    .str3 {stroke:white;stroke-width:518.007;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+    .fil1 {fill:none}
+    .fil2 {fill:#BDC5D1;fill-opacity:0.501961}
+    .fil4 {fill:url(#id0)}
+    .fil3 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="12716.8" y1="5141.43" x2="16395.1" y2="2041.6">
+   <stop offset="0" style="stop-opacity:1; stop-color:#00A2A6"/>
+   <stop offset="0.2" style="stop-opacity:1; stop-color:#00A2A6"/>
+   <stop offset="0.6" style="stop-opacity:1; stop-color:#007EA2"/>
+   <stop offset="0.988235" style="stop-opacity:1; stop-color:#0E5391"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0E5391"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="10590.3" y1="9605.91" x2="18521.6" y2="322.546">
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1136752640">
+   <path class="fil0 str0" d="M16904 15816c-345,518 -759,1002 -1191,1451"/>
+   <path class="fil1 str1" d="M5992 898c362,-104 742,-190 1122,-259m-5491 2918c656,-673 1399,-1261 2210,-1744m-3574 3557c138,-242 294,-483 449,-708"/>
+   <path class="fil0 str0" d="M8737 20168c-1692,0 -3298,-432 -4679,-1192m8996 190c-328,156 -656,294 -1002,432"/>
+   <path class="fil0 str2" d="M6527 7822l5543 0m-10810 0l4006 0m-4006 5025l10499 0m2642 0l1830 0m-7494 -10464l0 15903m2348 -15558c-742,-224 -1519,-345 -2348,-345 -4386,0 -7960,3557 -7960,7943 0,4403 3557,7960 7960,7960 4403,0 7960,-3557 7960,-7960 0,-916 -155,-1796 -449,-2625"/>
+   <path class="fil0 str2" d="M10982 3453c-225,-241 -484,-449 -743,-604 -466,-294 -984,-466 -1502,-466 -2469,0 -4472,3557 -4472,7960 0,4403 2003,7960 4472,7960 2469,0 4472,-3557 4472,-7960 0,-812 -69,-1606 -207,-2348"/>
+   <path class="fil2" d="M15609 1330c-1985,0 -3574,1605 -3574,3574 0,1053 1243,3401 3281,6216 69,103 172,138 293,138 121,0 225,-52 294,-138 2037,-2780 3280,-5128 3280,-6216 0,-1969 -1605,-3574 -3574,-3574z"/>
+   <path class="fil3" d="M14556 0c-1986,0 -3574,1606 -3574,3574 0,1054 1243,3402 3280,6216 69,104 173,138 294,138 121,0 224,-51 294,-138 2037,-2780 3280,-5128 3280,-6216 -17,-1951 -1623,-3574 -3574,-3574z"/>
+   <circle class="fil4 str3" cx="14556" cy="3592" r="1658"/>
+  </g>
+ </g>
+</svg>

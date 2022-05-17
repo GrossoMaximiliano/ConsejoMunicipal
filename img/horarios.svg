@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="212.534mm" height="196.39mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 20994 19399"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#007FA2;stroke-width:518.595;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#BDC5D1;stroke-width:518.595;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:#BDC5D1;stroke-width:518.595;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1940.699630 1940.699630}
+    .fil0 {fill:none}
+    .fil1 {fill:#DEE2E8}
+    .fil4 {fill:url(#id0)}
+    .fil3 {fill:url(#id1)}
+    .fil2 {fill:url(#id2)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="13536.9" y1="9073.1" x2="16921.9" y2="6220.44">
+   <stop offset="0" style="stop-opacity:1; stop-color:#00A2A6"/>
+   <stop offset="0.2" style="stop-opacity:1; stop-color:#00A2A6"/>
+   <stop offset="0.6" style="stop-opacity:1; stop-color:#007EA2"/>
+   <stop offset="0.988235" style="stop-opacity:1; stop-color:#0E5391"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#0E5391"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="7291.59" y1="9073.1" x2="10676.5" y2="6220.44">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="3722.67" y1="19074.1" x2="20359.9" y2="9710.69">
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1135385104">
+   <g>
+    <path class="fil0 str0" d="M9594 277c-294,-18 -570,-18 -864,0"/>
+    <path class="fil0 str1" d="M6811 588c-916,259 -1815,657 -2645,1192"/>
+    <path class="fil0 str0" d="M3388 2368c-225,190 -432,381 -639,588m0 -17c-3319,3319 -3319,8712 0,12048m12964 -12048c-1694,-1694 -3889,-2593 -6119,-2680m-5739 12014l657 -328m-1349 -3475l709 173m8298 -4667l-294 933m-3509 -1642l173 709m-3717 1054l795 796"/>
+    <path class="fil0 str2" d="M13587 5030c-2420,-2420 -6327,-2420 -8747,0 -2420,2420 -2420,6327 0,8747"/>
+    <path class="fil0 str0" d="M2057 6655c0,0 -951,1988 -138,4477m11513 -8141c0,0 -588,-450 -1262,-623m-9473 3112l587 -916"/>
+   </g>
+   <g>
+    <path class="fil1" d="M5999 18816l644 -2c14,-1721 4,-3441 4,-5163 0,-1923 -167,-1744 716,-1744 276,0 552,0 829,0l-6 90 8 472 2 250 -8 201 -1 248c-24,122 9,120 7,246 48,296 27,364 203,581 78,96 133,131 224,187 95,60 227,76 292,123l0 3110c0,326 -41,711 99,968 319,584 1000,437 1656,437 370,0 626,43 913,-123 185,-107 393,-346 396,-654 39,-83 17,-176 20,-284 2,-53 3,-107 3,-161l-26 -143 11 -3155c87,-47 333,-84 498,-278 111,-131 204,-322 219,-555 30,-504 -15,-1050 4,-1560l7234 0c359,-3 397,59 395,413 -1,2161 -20,4330 0,6487l647 10c4,-2662 1,-2188 0,-5831 0,-722 112,-1247 -351,-1609 -346,-270 -1248,-175 -1779,-177 19,-886 63,-1333 -405,-1886 -135,-160 -428,-351 -716,-430 -288,-80 -1954,-81 -2224,-11 -310,80 -592,256 -746,425 -473,519 -432,1036 -416,1902l-1641 0c2,-864 64,-1352 -406,-1888 -496,-564 -1190,-481 -1837,-481 -697,0 -1359,-70 -1852,466 -476,519 -418,1044 -415,1904 -353,-5 -708,-1 -1061,-1 -388,0 -591,11 -832,218 -195,168 -302,395 -302,764 0,2212 3,4424 0,6634z"/>
+    <circle class="fil1" cx="10439" cy="7083" r="1525"/>
+    <circle class="fil1" cx="16685" cy="7083" r="1525"/>
+   </g>
+   <g>
+    <path class="fil2" d="M4544 19379l644 -1c14,-1722 4,-3441 4,-5163 0,-1924 -167,-1745 715,-1745 277,0 553,0 829,0l-5 90 8 472 1 250 -7 202 -2 248c-23,121 10,119 7,245 49,296 28,364 204,581 78,96 133,131 224,188 95,59 227,75 291,122l0 3111c0,325 -41,711 100,967 318,584 1000,437 1655,437 371,0 626,44 914,-123 184,-107 393,-346 396,-653 39,-83 17,-177 20,-284 1,-54 2,-108 3,-161l-26 -144 11 -3154c87,-47 333,-84 498,-279 111,-131 204,-322 218,-555 31,-503 -14,-1050 5,-1560l7234 0c359,-2 396,60 394,413 0,2162 -19,4330 1,6487l646 10c5,-2661 1,-2187 1,-5831 0,-722 112,-1246 -351,-1609 -346,-270 -1249,-175 -1779,-177 19,-886 63,-1332 -405,-1886 -136,-160 -428,-350 -717,-430 -288,-80 -1953,-81 -2224,-11 -309,80 -592,257 -745,425 -474,519 -432,1036 -416,1903l-1641 0c2,-865 64,-1353 -406,-1888 -496,-564 -1190,-481 -1837,-481 -697,0 -1360,-71 -1852,465 -476,519 -418,1045 -416,1905 -352,-5 -707,-1 -1060,-1 -388,-1 -592,10 -833,218 -194,167 -301,394 -301,764 0,2212 2,4423 0,6633z"/>
+    <circle class="fil3" cx="8984" cy="7647" r="1525"/>
+    <circle class="fil4" cx="15229" cy="7647" r="1525"/>
+   </g>
+  </g>
+ </g>
+</svg>

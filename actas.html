@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Consejo Municipal de Las Toscas</title>
+  <title>Concejo Municipal de Las Toscas</title>
 
   <!-- CSS  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <a name="arriba" class="hidden"></a>
+
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
 
@@ -25,27 +25,34 @@
        </ul>
       
         <ul  class="right hide-on-med-and-down">
-            <li><a href="index.html"><i class='material-icons left  green-text darken-4'  >home</i>Inicio</a></li>
-            <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown1'><i class='material-icons left green-text darken-4'>assignment</i>Institucional</a></li>
-            <li><a href="#"><i class='material-icons left  green-text darken-4' >web</i>Noticias</a></li>
-            <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown2'><i class='fa fa-gavel small left  green-text darken-4' style="font-size: 18px;"></i>Legislación</a></li>
-            <a class="waves-effect waves-light btn red darken-2">Contacto</a>
+            <li><a href="index.html"><i class='material-icons left  cyan-text lighten-2'  >home</i>Inicio</a></li>
+            <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown1'><i class='material-icons left cyan-text lighten-2'>assignment</i>Institucional</a></li>
+            <li><a href="noticias.html"><i class='material-icons left  cyan-text lighten-2' >web</i>Noticias</a></li>
+            <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown2'><i class='fa fa-gavel small left  cyan-text lighten-2' style="font-size: 18px;"></i>Legislación</a></li>
+            <a href="./contacto.html" class="waves-effect waves-light btn cyan darken-2">Contacto</a>
                 
                 
                 <ul id='dropdown1' class='dropdown-content'>
-                  <li ><a href="index.html" class="black-text"><i class='material-icons left  green-text darken-4'  >format_list_bulleted</i>Miembros</a></li>
-                  <li><a href="index.html#historia"  class="black-text"><i class='material-icons left  green-text darken-4'  >history</i>Historia</a></li>
-                  <li><a href="index.html#mapa"  class="black-text"><i class='material-icons left  green-text darken-4' >location_on</i>Funciones </a></li>
+                  <li ><a href="concejales.html"  class="black-text"><i class='material-icons left  cyan-text lighten-2'  >format_list_bulleted</i>Miembros</a></li>
+                  <li><a href="historia.html"  class="black-text"><i class='material-icons left  cyan-text lighten-2'  >history</i>Historia</a></li>
+                  <li><a href="funciones.html"   class="black-text"><i class='material-icons left  cyan-text lighten-2' >location_on</i>Funciones </a></li>
                 </ul>
                 
                 <ul id='dropdown2' class='dropdown-content'>
-                  <li ><a href="index.html" class="black-text"><i class='material-icons left  green-text darken-4'  >folder</i>Actas</a></li>
-                  <li ><a href="index.html" class="black-text"><i class='material-icons left  green-text darken-4'  >folder</i>Sesiones</a></li>
+                  <li ><a href="actas.html" class="black-text"><i class='material-icons left  cyan-text lighten-2'  >folder</i>Actas</a></li>
+                  <li ><a href="sesiones.html" class="black-text"><i class='material-icons left  cyan-text lighten-2'  >folder</i>Sesiones</a></li>
                 </ul>
         </ul>
     </div>
   </nav>
 <!--FIN BARRA NAVEGACION MENU SUPERIOR-->
+
+		<header class="entry-head">
+                    <div  class="entry-header">
+			<h1 class="entry-title single-title" itemprop="headline">ACTAS</h1>			<div class="colored-line-left"></div>
+			<div class="clearfix"></div>
+                        </div>
+		</header><!-- .entry-header -->
 
   <br><br>
   <div class="row actas">
@@ -54,25 +61,28 @@
       <b>Las actas certifican lo acontecido y validan lo acordado. A continuación se encuentran disponibles para ser consultadas por todos los ciudadanos.</b>
       <br><br>
       <div class="col s12">
+
         <div class="col s8">
           <div class="input-field col s5">
+            <select>
+              <option value="" disabled selected>Ordenar por</option>
+              <option value="1">Mas recientes</option>
+              <option value="1">Mas antiguos</option>
+              <option value="1">Mas populares</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <div class="input-field col s4"></div>
+          <div class="input-field col s8">
             <input id="icon_telephone" type="tel" class="validate">
             <label for="icon_telephone">Buscar documento</label>
             <i class="material-icons prefix">search</i>
           </div>
         </div>
 
-        <div class="col s4">
-          <div class="col s2"></div>
-          <div class="input-field col s10">
-            <select>
-              <option value="" disabled selected>Ordenar por</option>
-              <option value="1">Ordenar por mas nuevos</option>
-              <option value="1">Ordenar por mas viejos</option>
-              <option value="1">Ordenar por mas populares</option>
-            </select>
-          </div>
-        </div>
+
       </div>
 
       <div class="col s12">
@@ -139,39 +149,39 @@
     <div class="col s1"></div>
   </div>
   <br><br>
+  
+  
 
-  <footer class="page-footer green darken-1">
+
+
+  <footer class="page-footer cyan darken-2">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Trabajo de Equipo</h5>
-          <p class="grey-text text-lighten-4">Somos un grupo de estudiantes de EET662 trabajando apasionadamente en este proyecto. Gracias por acompañarnos, y apoyarnos en este emprendimiento.</p>
-
-
+          <h5 class="white-text">Sobre Nosotros</h5>
+          <p class="grey-text text-lighten-4">El Concejo Municipal de Las Toscas es el órgano legislativo y de control del Gobierno Municipal. Su función es crear normas jurídicas que luego el Departamento Ejecutivo aplicará en el ámbito territorial de la ciudad. <br/> Si bien es un poder independiente, actualmente su espacio físico se ubica dentro de las instalaciones de la Municipalidad de Las Toscas.</p>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Actividades</h5>
                <ul>
-            <li><a class="white-text" href="actividadYugo.html#diaPesca">Dia de Pesca</a></li>
-            <li><a class="white-text" href="actividadYugo.html#visitaYugo">Visita al Yugo Quebrado. </a></li>
-            <li><a class="white-text" href="actividadYugo.html#nochePenia">Noche de Peña</a></li>
-            <li><a class="white-text" href="actividadYugo.html#caminoTanino">Camino del Tanino.</a></li>
-            <li><a class="white-text" href="actividadYugo.html#diaCampo">Dia de Campo</a></li>
-            <li><a class="white-text" href="actividadYugo.html#recorridoHistorico">Recorrido Histórico</a></li>
+            <li><a class="white-text" href="index.html">Inicio</a></li>
+            <li><a class="white-text" href="concejales.html">Miembros</a></li>
+            <li><a class="white-text" href="historia.html">Historia</a></li>
+            <li><a class="white-text" href="funciones.html">Funciones</a></li>
+            <li><a class="white-text" href="noticias.html">Noticias</a></li>
+            <li><a class="white-text" href="actas.html">Actas</a></li>
+            <li><a class="white-text" href="actas.html">Sesiones</a></li>
 
 
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Contactenos para Reservar</h5>
+          <h5 class="white-text">Contacto</h5>
           <ul>
-            <li><a class="white-text" href="mailto:yugoTurismo@gmail.com">Mail: yugoTurismo@gmail.com</a></li>
-            <li  class="white-text" >Telèfonos:</li>
-            <li  class="white-text" >Visita nuestras redes sociales:</li>
-            <li>	<a href="" target="_blank"><i class="fa fa-facebook small  white-text"></i></a> &nbsp;&nbsp;
-			<a href="" target="_blank"><i class="fa fa-instagram small white-text" ></i></a>&nbsp;&nbsp;
-			<a href="" target="_blank"><i class="fa fa-whatsapp small white-text"></i></a>&nbsp;&nbsp;		
-                	<a href="" target="_blank" class="waves-circle"><i class="fa fa-twitter small  white-text"></i></a>
+            <li><a class="white-text" href="mailto:yugoTurismo@gmail.com">Mail: municipalidadlastoscas@gmail.com</a></li>
+            <li  class="white-text" style="padding-bottom: 4px;" >Telèfono: 3482-492310</li>
+            <li  class="white-text" style="padding-bottom: 4px;" >Dirección: Calle 19 - C.P 3586 - Las Toscas - Santa Fe</li>
+            <li  class="white-text" style="padding-bottom: 4px;" >Horario de atención: 8hs a 12:30hs am</li>
 
                 </li>
 
@@ -181,13 +191,14 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container brown-text text-lighten-3">
-      Alumnos del ISE N63 © 2022 Todos los derechos reservados
+      <div class="container cyan-text text-lighten-3">
+      Alumnos del ISP N63 © 2022 Todos los derechos reservados
       </div>
     </div>
   </footer>
 
 
+ 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
@@ -246,4 +257,6 @@
     display: flex;
 } 
   </style>
+  
+  
 </html>
