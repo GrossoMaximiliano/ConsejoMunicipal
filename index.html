@@ -15,19 +15,16 @@
 
 </head>
 <body>
-    <!--BARRA LATERAL REDES SOCIALES
+    <!--BARRA LATERAL REDES SOCIALES-->
     <header>
-        <div class="barraLateral right-align">
+        <div class="barraLateral left-align">
         <ul class="collection">
-        <li class="collection-item"><i class="fa fa-whatsapp"></i></li>
-        <li class="collection-item"><i class="fa fa-facebook"></i></li>
-        <li class="collection-item"><i class="fa fa-instagram"></i></li>
-        <li class="collection-item"><i class="fa fa-twitter"></i></li>
+        <li class="collection-item red darken-2"> <i class="fa fa-youtube"></i></li>
         </ul>
         </div>
 
     </header>         
-FIN BARRA LATERAL REDES SOCIALES--> 
+<!--FIN BARRA LATERAL REDES SOCIALES -->
 
     <!--MARCADOR PARA VOLVER-->
     <a name="arriba" class="hidden"></a>
@@ -47,13 +44,14 @@ FIN BARRA LATERAL REDES SOCIALES-->
           <li><a href="index.html"   class="brand-logo"> 
           <img class="btn-xlarge" src="img/logo2.png" alt="" onerror="this.src='../img/Logo2.png';"/><!----> </a></li>
      </ul>
-    
+     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
       <ul  class="right hide-on-med-and-down">
           <li><a href="index.html"><i class='material-icons left  cyan-text lighten-2'  >home</i>Inicio</a></li>
           <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown1'><i class='material-icons left cyan-text lighten-2'>assignment</i>Institucional</a></li>
           <li><a href="noticias.html"><i class='material-icons left  cyan-text lighten-2' >web</i>Noticias</a></li>
           <li><a href='#' id="navMenu" class='dropdown-trigger' data-target='dropdown2'><i class='fa fa-gavel small left  cyan-text lighten-2' style="font-size: 18px;"></i>Legislación</a></li>
-          <a href="./contacto.html" class="waves-effect waves-light btn cyan darken-2">Contacto</a>
+          <li><a href="contacto.html"><i class='material-icons left  cyan-text lighten-2' >message</i>Contacto</a></li>
               
               
               <ul id='dropdown1' class='dropdown-content'>
@@ -70,6 +68,28 @@ FIN BARRA LATERAL REDES SOCIALES-->
   </div>
 </nav>
 <!--FIN BARRA NAVEGACION MENU SUPERIOR-->
+
+<ul id="slide-out" class="sidenav">
+  <li><div class="user-view mycenter">
+    <img src="./img/logo.png">
+  </div></li>
+  <li><a class="black-text" href="index.html">Inicio</a></li>
+  <li><a class="black-text" href="concejales.html">Miembros</a></li>
+  <li><a class="black-text" href="historia.html">Historia</a></li>
+  <li><a class="black-text" href="funciones.html">Funciones</a></li>
+  <li><a class="black-text" href="noticias.html">Noticias</a></li>
+  <li><a class="black-text" href="documentacion.html">Documentación</a></li>
+  <li><a class="black-text" href="sesiones.html">Sesiones</a></li>
+  
+</ul>
+
+<style>
+.sidenav .user-view img {
+  height: 100px;
+}
+
+</style>
+
 
 <!--BOTON IR ARRIBA-->
 <div class="fixed-action-btn">
