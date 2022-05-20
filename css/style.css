@@ -159,3 +159,27 @@ footer.page-footer {
 	background-color: black;
 	opacity: 50%;
 }
+
+.sidenav .user-view img {
+  height: 100px;
+}
+
+
+iframe {
+	width: 500px !important;
+	height: 300px !important;
+}
+
+@media (max-width : 530px) {
+	iframe{
+		width: 95% !important;
+	}
+	
+	.entry-head {
+		text-align: center;
+		
+	}
+	.entry-head h1 {
+			font-size: 25px;
+		}
+}
